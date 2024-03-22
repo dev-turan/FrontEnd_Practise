@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Registration form</h3>
+    <!-- FORM - used to collect data -->
+<form>
+    <input type="text" placeholder="username">
+    <br>
+    <input type="password" placeholder="password">
+    <br>
+    <input type="radio" value="class 3" name="class">class3
+    <input type="radio" value="class4" name="class">class4
+    <br>
+    <!-- lable can have id's and class -->
+    <label id="11" class="dd">
+    <input type="radio" value="class 3" name="class" id="11">class3
+    </label>
+    <label id="12" class="ss">
+    <input type="radio" value="class4" name="class" id="12">class4
+    </label>
+    <br>
+    <!-- checkboxex -->
+    <lable for="math" class="dd">
+        <input type="checkbox" value="math" name="subj" id="11" class="dd">math  
+    </lable>
+    <lable for="phy">
+        <input type="checkbox" value="phy" name="subj" id="11">phy  
+    </lable>
+    <lable for="chm">
+        <input type="checkbox" value="chm" name="subj" id="11">phy  
+    </lable>
+    <br>
+    <!-- TextArea -->
+    <textarea name="feedback" id="11" type="text" placeholder="please write here" rows="5">
+        feedback
+    </textarea>
+    <br>
+    <!-- select  -->
+    <select name="city" id="city">
+     <option value="delhi">delhi</option>
+     <option value="mumbai">mumbai</option>
+     <option value="ambala">ambala</option>
+    </select>
+    <br>
+    <!-- Input Type = submit -->
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>

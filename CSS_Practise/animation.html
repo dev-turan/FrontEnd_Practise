@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+</head>
+<style>
+    div{
+        height: 200px;
+        width: 200px;
+        background-color: aqua;
+        position: absolute;
+        /* defining animation */
+        animation-name: coloranimate;
+        animation-duration: 2s;
+        animation-timing-function: ease-in;
+        animation-delay: 1s;
+        animation-iteration-count:infinite;
+
+    }
+    @keyframes coloranimate {
+        from{
+            left: 0px;
+            background-color: aqua;}
+        to{
+            left: 200px;
+            background-color: blueviolet;}        
+    }
+
+</style>
+<body>
+    <!-- we use keyframe(used as a template) to define the animation -->
+    <!-- @keyframe animation_name{
+          from { } (initial frame)
+          to { }   (ending frame)
+        } -->
+        <div>
+            <p>dev turan</p>
+        </div>
+
+    <!-- animation properties = used to apply the animations -->
+    <!-- 1.animation-name
+         2.animation-duration
+         3.animation-timing-function
+         4.animation-delay
+         5.animation-iteration-count
+         6.animation-direction: normal/reverse/alternate/alternate-re   -->
+
+    <!--  %in amimation -->
+    <!-- @keyframe animation_name{
+           0% { }
+           50% { }
+           100% { }
+         }   -->
+</body>
+</html>

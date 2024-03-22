@@ -1,0 +1,40 @@
+
+/* to create a circle in css we set height and width the same to create a square and then set the radius to 50% */
+ /*   height: 100px;
+    width: 100px;
+    border-radius: 50%;  */
+
+/* paading = area b/w box and content ; margin = area b/w two boxes */
+/* to set background image in a block
+    background-image:url(""); */
+/* you have to set background-size along with background image
+   background-size: cover(no empty spce in the block/image fit properly)
+                    contain(compeltely fit and visible image)
+                    auto(by default)  */
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+#aa{
+    background-color: #0f1111;
+    height: 60px;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color:#f08804 ;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+}
+#content{
+    margin: 100px;
+    padding: 100px;
+    border: 5px solid black;
+}
+footer{
+    color: #0f1111;
+}

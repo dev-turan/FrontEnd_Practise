@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <link rel="stylesheet" href="style1.css"
+</head>
+<body>
+    <!-- css = cascading style sheet 
+         there are two ways to do css styling : 
+          1. inline css
+          2. style tag ( written in head tag )-->
+    <!--  NOTE : the most popular way is to use an external style sheet -->
+    
+    <!-- SELECTORS
+      1. universal - *{} (*=asterisk)
+      2. element - h1{}
+      3. id - #id_name{}
+      4. class - .class_name{} -->
+
+      <!-- short cut
+          1. #my_idname = will create a dic with id
+          2. .my_classname = will create a dic with class -->
+      
+    <!-- BOX Model in CSS
+        height , width , border , padding , margin -->
+
+        <!-- if we set display=none (all the sapce and physical appearence of the object is gone),whereas 
+            if we set the visibility=hidden(the space of object remains but the physical appereance of the object is gone)   -->
+    <!--  value of the A(alpha) remains b/w 0-1 -->
+    <!-- use inline-block to align the content objects in a line -->
+    <!-- RELATIVE UNITS
+         1. %
+         2. em 
+         3. rem -->
+    <!-- POSITION PROPERTY 
+         1. static - default position
+         2. relative - top/right/bottom/left values will work
+         3. absolute - position relative to parent element postion
+         4. fixed - position relatice to browser
+         5. sticky - based on screen scroll -->
+    <!-- Z-Index = used to set the priority for overlapping
+       ( the greater the value the more is the priority )
+       ( but in case of static position we cant set the z-index value) -->
+
+  <header>
+    <div id="aa">
+    <a id="logo">amazon.in</a>
+    <a>account</a>
+    <a>my cart</a>
+    <a>contact us</a>
+        <input placeholder="search amazon.in">
+        <button>
+            search
+        </button>
+   </div>
+  </header>
+  <div id="content">
+    <div id="content">
+        <div id="content">
+            <div id="content">
+
+            </div>
+        </div>
+    </div>
+  </div>
+  <footer>this is my footer</footer>
+</body>
+</html>
